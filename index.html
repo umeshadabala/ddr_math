@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dig, Dig, Repeat (Mathified Version)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="mainMenu" class="menu">
+        <h1>Dig, Dig, Repeat (Mathified Version)</h1>
+        <button onclick="startGame()">Start Game</button>
+    </div>
+
+    <div id="gameArea" class="gameArea">
+        <div id="gameInfo">
+            <p id="lives">Lives: 3</p>
+            <p id="timer">Time: 0s</p>
+            <p id="status">Welcome to Dig, Dig, Repeat (Mathified Version)</p>
+            <button id="restartButton" onclick="restartGame()">Restart</button>
+        </div>
+        <canvas id="gameCanvas" width="600" height="600"></canvas>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+
+</html>

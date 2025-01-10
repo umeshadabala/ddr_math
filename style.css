@@ -1,0 +1,64 @@
+/* General styling */
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: #00FF00;
+    /* Green text color for terminal */
+    overflow: hidden;
+}
+
+.menu,
+.gameArea {
+    text-align: center;
+}
+
+.gameArea {
+    display: none;
+}
+
+canvas {
+    border: 2px solid #00FF00;
+    /* Green border around the canvas */
+    margin-top: 20px;
+    background-color: black;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #00FF00;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: black;
+    border: 2px solid #00FF00;
+    color: #00FF00;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #00FF00;
+    color: black;
+}
+
+#restartButton {
+    display: none;
+}
+
+/* Terminal-like Game Info */
+#gameInfo {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#gameInfo p {
+    margin: 5px 0;
+}
