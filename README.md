@@ -32,11 +32,11 @@
 1. Clone or download this repository to your local machine.
 2. Open the `index.html` file in your browser to play the game.   
    (or)  
-1.Open terminal where the files are saved
+3.Open terminal where the files are saved
     ```bash
    python -m http.server
    ```  
-2. Open browser and navigate to
+4. Open browser and navigate to
      ```bash
      0.0.0.0:8000
      ```
