@@ -31,8 +31,15 @@
 
 1. Clone or download this repository to your local machine.
 2. Open the `index.html` file in your browser to play the game.
-
-## How to Play
+   (or)
+1.Open terminal where the files are saved
+    ```bash
+   python -m http.server
+   ```
+  2. Open browser and navigate to
+     ```bash
+     0.0.0.0:8000
+     ```
 
 ### 1. Main Menu:
 Upon starting the game, you will be presented with a **Main Menu**. The game includes only one mode:
@@ -54,14 +61,7 @@ Upon starting the game, you will be presented with a **Main Menu**. The game inc
 ### 4. Restarting the Game:
 - You can restart the game by clicking the "Restart" button in the game screen or return to the **Main Menu** to start a new game.
 
-## Installation
 
-1. Clone or download this repository to your local machine.
-2. Open the `index.html` file in your browser to play the game, or run the following command in the command line where the files are saved to start a local server:
-
-```bash
-python -m http.server ```
-Open the broswer and navigate to 0.0.0.0:8000
 ### **Game Logic**:
 - The game is built using **HTML**, **CSS**, and **JavaScript**.
 - The grid is randomly generated at the start of each game, and the player must navigate it.
