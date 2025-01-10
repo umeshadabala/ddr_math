@@ -35,8 +35,8 @@
 1.Open terminal where the files are saved
     ```bash
    python -m http.server
-   ```
-  2. Open browser and navigate to
+   ```  
+2. Open browser and navigate to
      ```bash
      0.0.0.0:8000
      ```
