@@ -30,17 +30,8 @@
 ## Installation
 
 1. Clone or download this repository to your local machine.
-2. Open the `index.html` file in your browser to play the game.   
-   (or)  
-3.Open terminal where the files are saved
-    ```bash
-   python -m http.server
-   ```  
-4. Open browser and navigate to
-     ```bash
-     0.0.0.0:8000
-     ```
-
+2. Open the `index.html` file in your browser to play the game.
+   
 ### 1. Main Menu:
 Upon starting the game, you will be presented with a **Main Menu**. The game includes only one mode:
 - **Mathified Mode**: The player navigates through the grid while solving math problems. If the player answers incorrectly, they lose a life.
