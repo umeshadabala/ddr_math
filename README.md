@@ -31,7 +31,7 @@
 
 1. Clone or download this repository to your local machine.
 2. Open the `index.html` file in your browser to play the game.   
-   (or)
+   (or)  
 1.Open terminal where the files are saved
     ```bash
    python -m http.server
